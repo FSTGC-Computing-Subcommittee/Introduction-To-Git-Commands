@@ -4,10 +4,12 @@ Git and Github
 
 [toc]
 
-* * *
+---
+
 # Why Git?
 
 ## Preamble
+
 Have you ever tried working on a project, with others before and ended up with a similar issue like this where you'd have different versions of the same file in the same folder?
 
 ```
@@ -21,7 +23,7 @@ final_proj_completed_v10.java
 
 ```
 
-Now this is just a small example of the problem, but imagine working on a mid-large project, where you have to be working with different software versions. 
+Now this is just a small example of the problem, but imagine working on a mid-large project, where you have to be working with different software versions.
 
 It would actually be pretty easy to become really confused or to accidentally ship broken code off into production.
 
@@ -31,9 +33,9 @@ But this is where git shines.
 
 So git is the most widely used version control system today, and its useful to anyone that writes codes or needs to keep track of changes to files.
 
-So Git works by Git tracking the changes you make to files, so you have a record of what has been done, and you can revert to specific versions should you ever need to. 
+So Git works by Git tracking the changes you make to files, so you have a record of what has been done, and you can revert to specific versions should you ever need to.
 
-And the best part is, git also makes collaboration easier, allowing changes by multiple people to all be merged into one source. 
+And the best part is, git also makes collaboration easier, allowing changes by multiple people to all be merged into one source.
 
 # Git Setup
 
@@ -49,17 +51,16 @@ Use the following to set up git on your local machine based on your operating sy
 [Git for OSX](https://git-scm.com/download/mac)
 
 ## Linux
+
 [Git for Linux](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
-
 # The Git Workflow
-
 
 # Essential Git Commands
 
 ## Creating a git repository (git init)
 
-A Git repository (or repo for short) contains all of the project files and the entire revision history. 
+A Git repository (or repo for short) contains all of the project files and the entire revision history.
 
 To create a git repository on your local machine, navigate to an empty directory (or create one) and type `git init`:
 
@@ -76,9 +77,9 @@ Think of Git as keeping a list of changes to files, and you'd want to tell git t
 
 Well we can do that by making commits!
 
-But, before we can make a commit we have to tell git the files you'd want to commit. 
+But, before we can make a commit we have to tell git the files you'd want to commit.
 
-This is known as **staging** and is done with the `git add` command. 
+This is known as **staging** and is done with the `git add` command.
 
 The syntax is as follows:
 
@@ -109,7 +110,6 @@ If you'd like to add/stage and commit in one go, and you've already staged your 
 $ git commit -am "Added some more fancy code"
 ```
 
-
 ## Creating, Changing and Deleting Branches
 
 Branches are used to develop features isolated from each other. The master/main branch is the "default" branch when you create a repository.
@@ -133,6 +133,7 @@ And to delete its just as simple
 ```bash
 $ git branch -d <branch-name>
 ```
+
 So here's a quick example switching, deleting and creating some branches
 
 ```bash
@@ -194,6 +195,7 @@ So in this case I have a new remote attached called `danga` and you can view you
 ```bash
 $ git remote -v
 ```
+
 ## Pulling Changes from a repository
 
 Aside from committing, staging and pushing, its essential to also know how to pull from a remote repository, and it's actually pretty simple
@@ -208,7 +210,6 @@ Example: Pulling from a remote with the name upstream
 $ git pull upstream master
 ```
 
-
 ## Viewing History/Logs
 
 To view a history of commits made to your git repository, the git you can use the `git log` command
@@ -216,6 +217,7 @@ To view a history of commits made to your git repository, the git you can use th
 ```bash
 $ git log
 ```
+
 # Resources
 
 - [Ultimate Git Guide](https://rogerdudler.github.io/git-guide/)
