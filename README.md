@@ -1,7 +1,7 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-**Table of Contents** _generated with [DocToc](https://github.com/thlorenz/doctoc)_
+**Table of Contents**
 
 - [Why Git?](#why-git)
   - [Preamble](#preamble)
@@ -22,8 +22,6 @@
 - [Resources](#resources)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
----
 
 # Why Git?
 
@@ -72,8 +70,6 @@ Use the following to set up git on your local machine based on your operating sy
 ## Linux
 
 [Git for Linux](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-
-# The Git Workflow
 
 # Essential Git Commands
 
