@@ -1,3 +1,27 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Why Git?](#why-git)
+  - [Preamble](#preamble)
+  - [The purpose of git](#the-purpose-of-git)
+- [Git Setup](#git-setup)
+  - [Windows](#windows)
+  - [OSX](#osx)
+  - [Linux](#linux)
+- [The Git Workflow](#the-git-workflow)
+- [Essential Git Commands](#essential-git-commands)
+  - [Creating a git repository (git init)](#creating-a-git-repository-git-init)
+  - [Adding/Staging and Committing Changes](#addingstaging-and-committing-changes)
+  - [Creating, Changing and Deleting Branches](#creating-changing-and-deleting-branches)
+  - [Cloning a repository](#cloning-a-repository)
+  - [Pushing Changes to a repository](#pushing-changes-to-a-repository)
+  - [Pulling Changes from a repository](#pulling-changes-from-a-repository)
+  - [Viewing History/Logs](#viewing-historylogs)
+- [Resources](#resources)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 Git and Github
 
 Git and Github
